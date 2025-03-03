@@ -1,0 +1,110 @@
+@media(max-width:600px){
+
+    main{
+        width: 37.5rem;
+        margin-left: 1rem;
+        padding:1rem;
+
+    }
+
+    header p{
+        margin-left:5rem;
+        margin-bottom: 2rem;
+    }
+
+    .img-cronotipo{
+        background-image: url(/images/cronotipo_logo.png);
+        background-repeat: no-repeat;
+        height: 40rem;
+        width: 50rem;
+        justify-content: center;
+    }
+
+    .start-quiz{
+        margin-bottom: 5rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .question-box{
+        width: 65rem;
+        font-size: 2.5rem;
+    }
+
+    .question-box legend{
+        width: 65%;
+        
+    }
+    .answers{
+        width: 65%;
+    }
+
+    label:has(input:checked) {
+        border: #006B60 2px solid;
+    }
+
+    .morning-img{
+        left: 200px;
+        bottom: 2px;
+    }
+    .late-morning-img{
+        left: 213px;
+        bottom: 31px;
+    }
+    .afternoon-img{
+        left: 232px;
+        bottom: 30px;
+    }
+    .evening-img{
+        left: 235px;
+        bottom: 30px;
+    }
+    .buttons{
+        display:flex;
+        gap:2rem;
+        margin-top: 5rem;
+    }
+
+    .buttons button{
+        background-color: #B873D8;
+        padding:2rem;
+        border-radius: 3rem;
+        width:200px;
+        height: 70px;
+        color:#fff;
+        border:none;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+
+
+    input{
+        margin-top: 10px;
+        display: none;
+        margin-left: 2rem;
+    }
+
+    .hidden{
+        display:none;
+    }
+
+    #submit-form{
+        /* justify-content: center; */
+        flex-grow: 1;
+        cursor: pointer;
+        height: 100px;
+        margin-top: -1.5rem;
+
+    }
+
+
+    .final-result{
+        margin-left: 1rem;
+        display:flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,205 @@
+html {
+    font-family: "Anaheim", serif;
+    font-size:10px;
+    font-weight: 500;
+}
+body{
+    font-size:3rem;
+    color: #006B60;
+    background-color: rgb(153,216,249);
+    background: radial-gradient(circle, rgba(153,216,249,1) 0%, rgba(255,255,255,1) 100%);
+}
+main{
+    margin:auto;
+    width: 144rem;
+    display: flex;
+    justify-content:  center    ;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+header h1{
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+header p{
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+
+.img-cronotipo{
+    background-image: url(/images/cronotipo_logo.png);
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 50rem;
+    justify-content: center;
+}
+
+.start-quiz{
+    border-radius: 3rem;
+    background-color: #B873D8;
+    color:#fff;
+    padding:2rem;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 22rem;
+    font-size: 2rem;
+}
+.start-quiz:hover{
+    transform: scale(1.2);
+    border: #fff solid 2px;
+}
+
+
+form{
+    display: flex;
+}
+
+.question-box{
+    width: 144rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    border: none;
+    margin-top: 10rem;
+    font-size: 3.5rem;
+}
+
+.question-box legend{
+    text-align: center;
+    width: 80%;
+    background-color: #E4F6F1;
+    padding:3rem;
+    border-radius: 2rem;
+    
+}
+.answers{
+    display: flex;
+    flex-flow: wrap;
+    width: 85%;
+}
+
+.answers label{
+    width: 44%;
+    background-color:#E4F6F1 ;
+    margin: 1rem;
+    flex-grow: 1;
+    height: 11rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-align: left;
+    padding: 2rem;
+}
+
+.answers label:hover{
+    border: #006B60 2px solid;
+    transform: scale(1);
+}
+
+label:has(input:checked) {
+    border: #006B60 2px solid;
+}
+
+.morning-img{
+    background-image: url(/images/icon_mattina.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    left: 380px;
+    bottom: 14px;
+}
+.late-morning-img{
+    background-image: url(/images/icon_mattina-tarda.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    left: 380px;
+    bottom: 40px;
+}
+.afternoon-img{
+    background-image: url(/images/icon_pome.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+}
+.evening-img{
+    background-image: url(/images/icon_sera.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    gap: 25rem;
+    margin-top: 5rem;
+}
+
+.buttons button{
+    background-color: #B873D8;
+    padding:2rem;
+    border-radius: 3rem;
+    width:200px;
+    height: 70px;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.buttons button:hover{
+    transform: scale(1.2);
+    border: #fff solid 2px;
+}
+
+input{
+    margin-top: 10px;
+    display: none;
+    margin-left: 2rem;
+}
+
+.hidden{
+    display:none;
+}
+
+#submit-form{
+    /* justify-content: center; */
+    flex-grow: 1;
+    cursor: pointer;
+    height: 100px;
+    margin-top: -1.5rem;
+
+}
+
+.flexa{
+    display:flex;
+}
+
+.final-result{
+    margin-left: 10rem;
+    display:flex;
+    flex-direction: column;
+}

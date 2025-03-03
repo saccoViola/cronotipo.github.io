@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/icon_pome.png">
+    <title>Test cronotipo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <main id="main-container">
+        <form id="cronotipo-test">
+            <header id="header">
+                <aside class="img-cronotipo">
+    
+                </aside>
+                <h1>Il tuo cronotipo lo scopri qui:</h1>
+                <p>Scopri quale animale rispecchia il tuo dormi-veglia</p>
+                <button aria-label="Start quiz" class="start-quiz" id="start-quiz">Inizia il test!</button>
+            </header>
+            <!--first question-->
+            <fieldset id="first" class="question-box hidden">
+                <legend>Iniziamo! <br> A che ora ti senti più energico?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q1" value="leone"> Mattina presto <span class="morning-img"></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="orso"> Metà mattina <span class="late-morning-img"></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="lupo"> Pomeriggio <span class="afternoon-img"></span>
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="delfino"> Sera/Notte <span class="evening-img"></span>
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>
+            </fieldset>
+            <!--second question-->
+            <fieldset  id="second" class="question-box hidden">
+                <legend>Come ti senti quando devi svegliarti presto?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q2" value="leone"> Mi alzo senza problemi
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="orso"> Dopo un po' ingrano
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="lupo"> Difficile, ho bisogno di tempo
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="delfino"> Impossibile, sono uno zombie
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>            
+            </fieldset>
+            <!--third question-->
+            <fieldset id="third" class="question-box hidden">
+                <legend>Quando riesci a concentrarti meglio?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q3" value="leone"> Mattina presto
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="orso"> A metà giornata
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="lupo"> Tardo pomeriggio
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="delfino"> Notte
+                    </label>
+                </div>    
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>            
+            </fieldset>
+            <!--forth question-->
+            <fieldset id="forth" class="question-box hidden">
+                <legend>Come ti senti dopo una notte con poche ore di sonno?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q4" value="leone"> Riesco a funzionare bene
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="orso"> Un caffè e posso farcela
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="lupo"> Faccio fatica tutto il giorno
+                    </label>
+                    <label>
+                        <input type="radio" name="q4" value="delfino"> Sono totalmente fuori uso
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>            
+            </fieldset>
+            <!--fifth question-->
+            <fieldset id="fifth" class="question-box hidden">
+                <legend>Come trascorri il tempo libero?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q5" value="leone"> Sport o attività all'aperto al mattino
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="orso"> Hobby e lavoro personale
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="lupo"> Socializzando nel pomeriggio/sera
+                    </label>
+                    <label>
+                        <input type="radio" name="q5" value="delfino"> Relax e creatività notturna
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>            
+            </fieldset>
+            <!--sixth question-->
+            <fieldset id="sixth" class="question-box hidden">
+                <legend>Orario di lavoro ideale?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q6" value="leone"> 6:00 - 14:00
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="orso"> 9:00 - 17:00
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="lupo"> 12:00 - 20:00
+                    </label>
+                    <label>
+                        <input type="radio" name="q6" value="delfino"> 16:00 - 00:00
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" class="submit-question">Next</button>
+                </div>            
+            </fieldset>
+            <!--seventh question-->
+            <fieldset id="seventh" name="seventh" class="question-box hidden">
+                <legend>Dopo un pasto abbondante a pranzo?</legend>
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="q7" value="leone"> Nessun problema, continuo
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="orso"> Un po' più lento ma ok
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="lupo"> Ho bisogno di un pisolino
+                    </label>
+                    <label>
+                        <input type="radio" name="q7" value="delfino"> Divento super assonnato
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button aria-label="previous question" class="previous-question" type="submit">Previous</button>
+                    <button aria-label="next question" id="submit-form" class="submit-question">Scopri il tuo cronotipo</button>
+                </div>  
+                
+            </fieldset> 
+        </form>
+    </main>
+    <div class="final-result" id="final-result" style="display: none;">
+        <h2>Il tuo cronotipo è:</h2>
+        <div id="leone" class="hidden">
+            <h3>Leone</h3>
+            <p>
+                Sei il tipo di persona che si sveglia con il primo raggio di sole, pieno di energia e pronto ad affrontare la giornata. Per te, le prime ore del mattino sono sacre: è il momento in cui sei più produttivo, creativo e motivato. Ami pianificare le tue attività in anticipo e spesso sei la persona che gli altri cercano per un consiglio organizzativo.
+
+                Nel pomeriggio, però, potresti iniziare a sentire un calo di energia, e la sera preferisci rilassarti piuttosto che fare le ore piccole. Andare a letto presto per te non è un obbligo, ma un vero piacere: un buon sonno è essenziale per mantenere il tuo ritmo. Sei disciplinato, determinato e spesso ottieni risultati eccellenti proprio grazie alla tua capacità di iniziare la giornata con il piede giusto.
+                <br>
+                <b>Punti di forza:</b> produttività mattutina, disciplina, energia costante.
+                <br>
+                <b>Sfide:</b> il calo di energia nel tardo pomeriggio, difficoltà a restare sveglio fino a tardi.
+            </p>
+        </div>
+        <div id="orso" class="hidden">
+            <h3>Orso</h3>
+            <p>
+                Segui il ciclo del sole come se fosse il tuo metronomo personale. Ti svegli senza troppi problemi, ma hai bisogno di un po’ di tempo (e magari di un buon caffè) per carburare. Sei più produttivo nelle ore centrali della giornata e tendi ad adattarti bene alla classica routine lavorativa dalle 9 alle 17.
+
+                Il tuo livello di energia è moderato: non sei un fan delle alzatacce, ma nemmeno delle notti in bianco. Ti piace socializzare e trovare un equilibrio tra lavoro e tempo libero. La sera, quando il sole tramonta, anche il tuo corpo inizia a chiedere relax e riposo. Sei la persona perfetta per programmare un’escursione diurna o un brunch con gli amici.
+                <br>
+                <b>Punti di forza:</b> ottima adattabilità, energia bilanciata durante la giornata, socievolezza.
+                <br>
+                <b>Sfide:</b> difficoltà a mantenere alta la produttività mattutina, rischio di stanchezza dopo pranzo.
+            </p>
+         </div>
+         <div id="lupo" class="hidden">
+            <h3>Lupo</h3>
+            <p>
+                Sei il tipo che di giorno va in modalità “risparmio energetico” e si accende nel pomeriggio. Le prime ore del mattino per te sono una sfida, e il solo pensiero di doverti svegliare presto può farti venire i brividi. Però, quando il sole inizia a calare, ti trasformi: diventi più attivo, concentrato e creativo.
+
+                Il tuo picco di produttività si verifica nel tardo pomeriggio e in serata, il che ti rende perfetto per lavori che non richiedono orari rigidi. Sei spesso visto come una persona intuitiva e originale, capace di trovare soluzioni innovative. La notte è il tuo momento per riflettere, creare e goderti attività che altri troverebbero troppo faticose.
+                <br>
+                <b>Punti di forza:</b> creatività, produttività serale, grande capacità di problem solving.
+                <br>
+                <b>Sfide:</b> difficoltà a svegliarsi presto, rischio di sbilanciare il ritmo sonno-veglia.
+            </p>
+        </div>
+        <div id="delfino" class="hidden">
+            <h3>Delfino</h3>
+            <p>
+                Sei il cronotipo più raro e particolare. Il sonno per te è un’esperienza delicata: hai un riposo leggero, ti svegli facilmente e spesso fai fatica ad addormentarti. Il tuo cervello è sempre in movimento, e tendi a essere una persona analitica e perfezionista, con un occhio attento ai dettagli.
+
+                Non hai un orario preciso di massima produttività, ma tendi a essere più attivo nelle ore serali. Sei il tipo di persona che può restare sveglia fino a tardi a lavorare su un progetto, ma poi pagare le conseguenze il giorno dopo. La tua mente vivace è un’arma a doppio taglio: ti permette di eccellere in molte aree, ma può rendere difficile trovare un equilibrio nel riposo.
+                <br>
+                <b>Punti di forza:</b> intelligenza analitica, attenzione ai dettagli, forte capacità di adattamento.
+                <br>
+                <b>Sfide:</b> difficoltà a dormire bene, rischio di stress e ansia da perfezionismo.
+            </p>
+        </div>
+    </div>
+    <script src="prova.js"></script>
+</body>
+</html>

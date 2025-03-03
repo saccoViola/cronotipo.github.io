@@ -1,0 +1,41 @@
+1. A che ora ti senti più energico?	
+Mattina presto	leone
+Metà mattina	orso
+Pomeriggio	    lupo
+Sera/notte      delfino
+
+2. Come ti senti quando devi svegliarti presto?	
+Mi alzo senza problemi	leone
+Dopo un po’ ingrano	   orso
+Difficile, ho bisogno di tempo	lupo
+Impossibile, sono uno zombie delfino
+
+3. Quando riesci a concentrarti meglio?	
+Mattina presto	leone
+A metà giornata	orso
+Tardo pomeriggio	lupo
+Notte           delfino
+
+4. Come ti senti dopo una notte con poche ore di sonno?	
+Riesco a funzionare bene	leone
+Un caffè e posso farcela	orso
+Faccio fatica tutto il giorno	lupo
+Sono totalmente fuori uso   delfino 
+
+5. Come trascorri il tempo libero?	
+Sport o attività all’aperto al mattino	leone
+Hobby e lavoro personale	orso
+Socializzando nel pomeriggio/sera	lupo
+Relax e creatività notturna delfino
+
+6. Orario di lavoro ideale?	
+6:00 - 14:00	leone
+9:00 - 17:00	orso
+12:00 - 20:00	lupo
+16:00 - 00:00   delfino
+
+7. Dopo un pasto abbondante a pranzo?	
+Nessun problema, continuo	leone
+Un po' più lento ma ok	    orso
+Ho bisogno di un pisolino	lupo
+Divento super assonnato     delfino
