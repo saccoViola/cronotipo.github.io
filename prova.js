@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 question.style.display = "none";
                 nextQuestion.style.display = "flex";
+                // errorMessage.style.display = "none";
             } else {
                 successSubmit = false;
                 // console.log("un input è selezionato " + successSubmit);
@@ -108,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             question.style.display = "none";
             previousQuestion.style.display = "flex";
-            errorMessage.style.display = "none";
+            // errorMessage.style.display = "none";
         })
     })   
 

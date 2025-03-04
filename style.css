@@ -33,7 +33,7 @@ header p{
 }
 
 .img-cronotipo{
-    background-image: url(/images/cronotipo_logo.png);
+    background-image: url(images/cronotipo_logo.png);
     background-repeat: no-repeat;
     height: 40rem;
     width: 50rem;
@@ -108,7 +108,7 @@ label:has(input:checked) {
 }
 
 .morning-img{
-    background-image: url(/images/icon_mattina.png);
+    background-image: url(images/icon_mattina.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -119,7 +119,7 @@ label:has(input:checked) {
     bottom: 14px;
 }
 .late-morning-img{
-    background-image: url(/images/icon_mattina-tarda.png);
+    background-image: url(images/icon_mattina-tarda.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -130,7 +130,7 @@ label:has(input:checked) {
     bottom: 40px;
 }
 .afternoon-img{
-    background-image: url(/images/icon_pome.png);
+    background-image: url(images/icon_pome.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -141,7 +141,7 @@ label:has(input:checked) {
     bottom: 40px;
 }
 .evening-img{
-    background-image: url(/images/icon_sera.png);
+    background-image: url(images/icon_sera.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
